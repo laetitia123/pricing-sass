@@ -1,4 +1,66 @@
 /* pricing.css */
+.price-unit {
+  color: rgba(177, 197, 193, 1);
+  font-family: Poppins-Medium;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: medium;
+}
+button {
+  width: 262px;
+  height: 52px;
+  box-shadow: 0 -4px 20px 0 rgba(37, 38, 94, 0.1) !important;
+  border-radius: 12px;
+  background: linear-gradient(
+    -30deg,
+      0% rgba(0, 161, 222, 1),
+      100% rgba(0, 131, 194, 1)
+  ) !important;
+}
+
+.plan-features .fa-check {
+  color: rgb(208, 192, 192);
+  margin-right: 8px;
+  height: 20px;
+  width: 20px;
+  display: inline-flex;
+  justify-content: center;
+  background: black;
+  border-radius: 50%;
+}
+.icon-center-bg {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.fa-check {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-card-header h1 {
+  height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Poppins-Medium;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: medium;
+  text-align: center;
+  line-height: 24px;
+}
+.plan-card-header p {
+  height: 48px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+}
 .pricing-card {
   border: 1px solid #ccc;
   padding: 20px;
